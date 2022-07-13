@@ -6,8 +6,7 @@ body {
 html,
 body {
   width: 100%;
-  height: 100%;
-  overflow: auto;
+  height: 5000px;
   background: linear-gradient(180deg, #ffc0ce 0%, #6de2fe 100%);
   background-repeat: no-repeat;
   background-position: center top;
@@ -18,4 +17,34 @@ body {
 }
 h1.font-script {
   font-size: 30px;
+}
+.img-h-500 {
+  width: 50%;
+  max-height: 500px;
+  min-height: 500px;
+}
+.img-h-500 img {
+  width: 100% !important;
+  max-height: 500px;
+  min-height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.button-pink {
+  background-color: #f7c9cc;
+  padding: 0.75rem 1.5rem;
+}
+#alternating > .flex {
+  gap: 4rem;
+}
+#alternating > .flex:nth-child(even) {
+  flex-direction: row-reverse;
+}
+@media screen(max-width: 768px) {
+  #alternating > .flex:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  #alternating > .flex:nth-child(odd) {
+    flex-direction: column;
+  }
 }
