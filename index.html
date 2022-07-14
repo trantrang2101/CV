@@ -429,6 +429,17 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/typed.js"></script>
     <script>
+        var typed = new Typed('#name', {
+            strings: [
+                'Thuy Trang',
+                ''
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            smartBackspace: true,
+            loop: true,
+            onDestroy: (self) => { }
+        });
         const pageLink = document.querySelectorAll(".ud-menu-scroll");
         pageLink.forEach((elem) => {
             elem.addEventListener("click", (e) => {
