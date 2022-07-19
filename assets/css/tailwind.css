@@ -927,7 +927,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
+.top-0 {
+  top: 0px;
+}
+.right-20 {
+  right: -5rem; /* 80px */
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1266,7 +1271,9 @@ body {
   .sm\:p-12 {
     padding: 3rem;
   }
-
+  .sm\:block {
+    display: block;
+  }
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1299,12 +1306,16 @@ body {
     font-size: 20px;
   }
 }
-
+.list-disc {
+  list-style-type: disc;
+}
 @media (min-width: 960px) {
   .lg\:static {
     position: static;
   }
-
+  .lg\:absolute {
+    position: absolute;
+  }
   .lg\:mr-0 {
     margin-right: 0px;
   }

@@ -1,0 +1,71 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#content {
+  width: 100%;
+  height: max-content;
+  background: linear-gradient(180deg, #ffc0ce 0%, #6de2fe 100%);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  /* height: 5000px;
+  background: linear-gradient(180deg, #ffc0ce 0%, #6de2fe 100%);*/
+}
+.font-script {
+  font-family: "Imperial Script" !important;
+}
+h1.font-script {
+  font-size: 30px;
+}
+.img-h-500 {
+  position: relative;
+  width: 50%;
+  max-height: 500px;
+  min-height: 500px;
+}
+.img-h-500 img {
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+  max-height: 500px;
+  min-height: 500px;
+  overflow: hidden;
+}
+.img-h-200 {
+  width: 50%;
+  max-height: 250px;
+  min-height: 250px;
+}
+.img-h-200 img {
+  width: 100% !important;
+  max-height: 250px;
+  min-height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.button-pink {
+  background-color: #f7c9cc;
+  padding: 0.75rem 1.5rem;
+}
+.alternating > .flex {
+  gap: 4rem;
+}
+.alternating > .flex:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.w-1\/2 {
+  width: 50%;
+}
+@media screen(max-width: 768px) {
+  .alternating > .flex:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .alternating > .flex:nth-child(odd) {
+    flex-direction: column;
+  }
+}

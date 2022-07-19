@@ -20,26 +20,30 @@ h1.font-script {
   font-size: 30px;
 }
 .img-h-500 {
+  position: relative;
   width: 50%;
   max-height: 500px;
   min-height: 500px;
 }
 .img-h-500 img {
+  position: absolute;
+  top: 0;
   width: 100% !important;
   max-height: 500px;
   min-height: 500px;
   object-fit: cover;
+  object-position: top left;
   overflow: hidden;
 }
-.img-h-300 {
+.img-h-200 {
   width: 50%;
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 250px;
+  min-height: 250px;
 }
-.img-h-300 img {
+.img-h-200 img {
   width: 100% !important;
-  max-height: 500px;
-  min-height: 500px;
+  max-height: 250px;
+  min-height: 250px;
   object-fit: cover;
   overflow: hidden;
 }
