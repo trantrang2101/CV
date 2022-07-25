@@ -1290,7 +1290,7 @@ body {
     width: 50%;
   }
   .md\:hidden {
-    display: none;
+    position: unset;
   }
   .md\:justify-between {
     justify-content: space-between;

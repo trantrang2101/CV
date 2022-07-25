@@ -1271,6 +1271,9 @@ body {
   .sm\:p-12 {
     padding: 3rem;
   }
+  .sm\:hidden {
+    display: none;
+  }
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1286,12 +1289,11 @@ body {
   .md\:w-full {
     width: 100%;
   }
+
   .md\:w-1\/2 {
     width: 50%;
   }
-  .md\:hidden {
-    display: none;
-  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -1303,6 +1305,9 @@ body {
   .md\:text-\[20px\] {
     font-size: 20px;
   }
+}
+.list-disc {
+  list-style-type: disc;
 }
 @media (min-width: 960px) {
   .lg\:static {

@@ -1304,6 +1304,9 @@ body {
     font-size: 20px;
   }
 }
+.list-disc {
+  list-style-type: disc;
+}
 @media (min-width: 960px) {
   .lg\:static {
     position: static;

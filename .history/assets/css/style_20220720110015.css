@@ -32,7 +32,7 @@ h1.font-script {
   max-height: 500px;
   min-height: 500px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center left;
   overflow: hidden;
 }
 .img-h-200 {
